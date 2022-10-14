@@ -19,7 +19,7 @@ The purpose of this app is to make a Tinder version for movies where the user ca
 - **Habit:** 
 - User can utilize the app as much as they want, but the more they use it, the better the app will generate recommendations closer to the user's liking.
 - **Scope:** 
-- Recommend movies based on what users like. We could enhance the recommendations by using machine learning.
+- Recommend movies based on what users like. Recommendations could be enhanced by using machine learning.
 
 ## Product Spec
 ### 1. User Stories (Required and Optional)
@@ -32,17 +32,17 @@ The purpose of this app is to make a Tinder version for movies where the user ca
 • Generates a list of recommnded movies based on what the user liked
 
 **Optional Nice-to-have Stories**
-• There is a link to the movie trailer when the user taps the movie poster
-• User can create a profile
-• Maybe build the app into matching people who liked the same movies. 
+• Link to the movie trailer when the user taps the movie poster
+• User can create a profile.
+• Social interaction functionality.
 
 ### 2. Screen Archetypes
 
 * Login
-* Register - User logs in or sign up in the app
+* Register - User logs in or signs up in the app
 * A movie poster will be the first thing the user sees
     * User can start liking or disliking a move (Tinder style)
-* Two separate screen of collections that a user can see: A collection of what the user has like and a collection of recommnded movie.
+* Two separate screen of collections that a user can see: A collection of what the user has liked and a collection of recommnded movies.
 
 ### 3. Navigation
 
@@ -55,7 +55,7 @@ The purpose of this app is to make a Tinder version for movies where the user ca
 **Flow Navigation** (Screen to Screen)
 * Forced Log-in -> Account creation if no log in is available
 * Music Selection -> (Add movies to "Liked lists")
-* Liked Moves -> Collection View
+* Liked Movies -> Collection View
 * Discover Movies -> Collection View
 
 
