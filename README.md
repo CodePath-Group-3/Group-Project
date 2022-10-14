@@ -48,13 +48,13 @@ The purpose of this app is to make a Tinder version for movies where the user ca
 
 **Tab Navigation** (Tab to Screen)
 
-* Music selection
+* Movies selection
 * Movies Liked
 * Movies Recommended
 
 **Flow Navigation** (Screen to Screen)
 * Forced Log-in -> Account creation if no log in is available
-* Music Selection -> (Add movies to "Liked lists")
+* Movies Selection -> (Add movies to "Liked lists")
 * Liked Movies -> Collection View
 * Discover Movies -> Collection View
 
