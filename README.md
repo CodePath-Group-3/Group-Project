@@ -81,12 +81,12 @@ The purpose of this app is to make a Tinder version for movies where the user ca
 List of network requests by screen:
 
 Login View
-*(Read/GET) Check if user is logged in
-*(Create/POST) Create new user
+- (Read/GET) Check if user is logged in
+- (Create/POST) Create new user
 
 Home Page
-*(Create/POST) Create a new like on the post
-*(Read/GET) Check if liked is true/false
+- (Create/POST) Create a new like on the post
+- (Read/GET) Check if liked is true/false
 *(Read/GET) Movie/show poster
 *(Update/PUT) Update liked
 
