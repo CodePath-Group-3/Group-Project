@@ -62,7 +62,7 @@ The purpose of this app is to make a Tinder version for movies where the user ca
 
 ## Wireframes
 
-<img src="[img here]" width=800><br>
+<img src="https://user-images.githubusercontent.com/100539328/197395807-53283671-4453-429d-a4ba-f8f00ce963fb.jpg" width=800><br>
 
 ### [BONUS] Digital Wireframes & Mockups
 <img src="[img here]" height=200>
