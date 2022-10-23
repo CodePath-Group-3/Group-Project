@@ -80,28 +80,28 @@ The purpose of this app is to make a Tinder version for movies where the user ca
 
 List of network requests by screen:
 
-   Login View
-      *(Read/GET) Check if user is logged in
-      *(Create/POST) Create new user
+Login View
+*(Read/GET) Check if user is logged in
+*(Create/POST) Create new user
 
-   Home Page
-      *(Create/POST) Create a new like on the post
-      *(Read/GET) Check if liked is true/false
-      *(Read/GET) Movie/show poster
-      *(Update/PUT) Update liked
+Home Page
+*(Create/POST) Create a new like on the post
+*(Read/GET) Check if liked is true/false
+*(Read/GET) Movie/show poster
+*(Update/PUT) Update liked
 
-   Liked Page
-      *(Read/GET) List of all liked movies
-      *(Delete) Remove a movie/show from liked list
+Liked Page
+*(Read/GET) List of all liked movies
+*(Delete) Remove a movie/show from liked list
 
-   Recommended Page
-      *(Read/GET) List of all recommended movies
+Recommended Page
+*(Read/GET) List of all recommended movies
 
-   Detail View Page
-      *(Read/GET) Movie/show poster
-      *(Read/GET) Movie/show background image
-      *(Read/GET) Movie/show synopsis
-      *(Read/GET) Movie/show rating
+Detail View Page
+*(Read/GET) Movie/show poster
+*(Read/GET) Movie/show background image
+*(Read/GET) Movie/show synopsis
+*(Read/GET) Movie/show rating
 
-   Trailer View Page
-      *(Read/GET) Movie/show trailer
+Trailer View Page
+*(Read/GET) Movie/show trailer
