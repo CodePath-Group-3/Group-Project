@@ -53,14 +53,14 @@ The purpose of this app is to make a Tinder version for movies where the user ca
 * Movies Recommended
 
 **Flow Navigation** (Screen to Screen)
+
 * Forced Log-in -> Account creation if no log in is available
 * Movies Selection -> (Add movies to "Liked lists")
 * Liked Movies -> Collection View
 * Discover Movies -> Collection View
 
-
-
 ## Wireframes
+
 <img src="[img here]" width=800><br>
 
 ### [BONUS] Digital Wireframes & Mockups
@@ -68,3 +68,39 @@ The purpose of this app is to make a Tinder version for movies where the user ca
 
 ### [BONUS] Interactive Prototype
 <img src="[img here]" width=200>
+
+# SCHEMA
+
+## Data Models
+
+![data-models](https://user-images.githubusercontent.com/100539328/197395419-f10f2543-f761-4480-94e6-a4191e51948e.png)
+
+## Networking
+
+List of network requests by screen:
+
+   Login View
+      (Read/GET) Check if user is logged in
+      (Create/POST) Create new user
+
+   Home Page
+      (Create/POST) Create a new like on the post
+      (Read/GET) Check if liked is true/false
+      (Read/GET) Movie/show poster
+      (Update/PUT) Update liked
+
+   Liked Page
+      (Read/GET) List of all liked movies
+      (Delete) Remove a movie/show from liked list
+
+   Recommended Page
+      (Read/GET) List of all recommended movies
+
+   Detail View Page
+      (Read/GET) Movie/show poster
+      (Read/GET) Movie/show background image
+      (Read/GET) Movie/show synopsis
+      (Read/GET) Movie/show rating
+
+   Trailer View Page
+      (Read/GET) Movie/show trailer
