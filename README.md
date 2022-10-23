@@ -2,8 +2,9 @@
 
 ## Table of Contents
 1. [Overview](#Overview)
-1. [Product Spec](#Product-Spec)
-1. [Wireframes](#Wireframes)
+2. [Product Spec](#Product-Spec)
+3. [Wireframes](#Wireframes)
+4. [Schema](#Schema)
 
 ## Overview
 ### Description
@@ -69,38 +70,38 @@ The purpose of this app is to make a Tinder version for movies where the user ca
 ### [BONUS] Interactive Prototype
 <img src="[img here]" width=200>
 
-# SCHEMA
+## SCHEMA
 
-## Data Models
+### Data Models
 
 ![data-models](https://user-images.githubusercontent.com/100539328/197395419-f10f2543-f761-4480-94e6-a4191e51948e.png)
 
-## Networking
+### Networking
 
 List of network requests by screen:
 
    Login View
-      -(Read/GET) Check if user is logged in
-      -(Create/POST) Create new user
+      *(Read/GET) Check if user is logged in
+      *(Create/POST) Create new user
 
    Home Page
-      -(Create/POST) Create a new like on the post
-      -(Read/GET) Check if liked is true/false
-      -(Read/GET) Movie/show poster
-      -(Update/PUT) Update liked
+      *(Create/POST) Create a new like on the post
+      *(Read/GET) Check if liked is true/false
+      *(Read/GET) Movie/show poster
+      *(Update/PUT) Update liked
 
    Liked Page
-      -(Read/GET) List of all liked movies
-      -(Delete) Remove a movie/show from liked list
+      *(Read/GET) List of all liked movies
+      *(Delete) Remove a movie/show from liked list
 
    Recommended Page
-      -(Read/GET) List of all recommended movies
+      *(Read/GET) List of all recommended movies
 
    Detail View Page
-      -(Read/GET) Movie/show poster
-      -(Read/GET) Movie/show background image
-      -(Read/GET) Movie/show synopsis
-      -(Read/GET) Movie/show rating
+      *(Read/GET) Movie/show poster
+      *(Read/GET) Movie/show background image
+      *(Read/GET) Movie/show synopsis
+      *(Read/GET) Movie/show rating
 
    Trailer View Page
-      -(Read/GET) Movie/show trailer
+      *(Read/GET) Movie/show trailer
