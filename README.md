@@ -27,15 +27,15 @@ The purpose of this app is to make a Tinder version for movies where the user ca
 
 **Required Must-have Stories**
 • User is able to login/logout
-• User is able to thumbs up/thumbs down a movie recommnded (like Tinder)
+• User is able to thumbs up/thumbs down a movie recommended (like Tinder)
 • A movie poster pops on every recommendation (like tinder)
-•Shows summary and rating is user taps on the movie poster
 • Generates a list of recommnded movies based on what the user liked
 
 **Optional Nice-to-have Stories**
 • Link to the movie trailer when the user taps the movie poster
-• User can create a profile.
-• Social interaction functionality.
+• User can create a profile
+• Shows summary and rating on detail view
+• Social interaction functionality
 
 ### 2. Screen Archetypes
 
@@ -43,7 +43,7 @@ The purpose of this app is to make a Tinder version for movies where the user ca
 * Register - User logs in or signs up in the app
 * A movie poster will be the first thing the user sees
     * User can start liking or disliking a move (Tinder style)
-* Two separate screen of collections that a user can see: A collection of what the user has liked and a collection of recommnded movies.
+* Two separate screen of collections that a user can see: A collection of what the user has liked and a collection of recommnded movies
 
 ### 3. Navigation
 
