@@ -29,7 +29,7 @@ The purpose of this app is to make a Tinder version for movies where the user ca
 • User is able to login/logout
 • User is able to thumbs up/thumbs down a movie recommended (like Tinder)
 • A movie poster pops on every recommendation (like tinder)
-• Generates a list of recommnded movies based on what the user liked
+• Generates a list of recommended movies based on what the user liked
 
 **Optional Nice-to-have Stories**
 • Link to the movie trailer when the user taps the movie poster
