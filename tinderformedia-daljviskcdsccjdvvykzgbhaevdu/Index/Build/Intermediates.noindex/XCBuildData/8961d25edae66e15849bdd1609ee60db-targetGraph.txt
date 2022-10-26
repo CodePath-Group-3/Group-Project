@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+TinderforMedia in TinderforMedia, no dependencies
+TinderforMedia in TinderforMedia, no dependencies

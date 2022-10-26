@@ -1,0 +1,59 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "6e96bbcb8e3030bd2adb549690202b1fd4925b286fd919be80f266e4703a86d2"
+    }
+  ],
+  "containerPath" : "/Users/harm/Desktop/iOS Class/Instagram/TinderforMedia/tinderformedia.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/harm/Desktop/iOS Class/Instagram/TinderforMedia/TinderforMedia/tinderformedia-daljviskcdsccjdvvykzgbhaevdu/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/harm/Desktop/iOS Class/Instagram/TinderforMedia/TinderforMedia/tinderformedia-daljviskcdsccjdvvykzgbhaevdu/Index/Build/Products",
+      "derivedDataPath" : "/Users/harm/Desktop/iOS Class/Instagram/TinderforMedia/TinderforMedia",
+      "indexDataStoreFolderPath" : "/Users/harm/Desktop/iOS Class/Instagram/TinderforMedia/TinderforMedia/tinderformedia-daljviskcdsccjdvvykzgbhaevdu/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/harm/Desktop/iOS Class/Instagram/TinderforMedia/TinderforMedia/tinderformedia-daljviskcdsccjdvvykzgbhaevdu/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/harm/Desktop/iOS Class/Instagram/TinderforMedia/TinderforMedia/tinderformedia-daljviskcdsccjdvvykzgbhaevdu/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/harm/Desktop/iOS Class/Instagram/TinderforMedia/TinderforMedia/tinderformedia-daljviskcdsccjdvvykzgbhaevdu/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
