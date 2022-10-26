@@ -105,3 +105,6 @@ Detail View Page
 
 Trailer View Page
 - (Read/GET) Movie/show trailer
+
+Gif of Currently Working App:
+![](https://i.imgur.com/F7QUlFL.gif)
