@@ -47,12 +47,14 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         let cell = tableView.dequeueReusableCell(withIdentifier: "PosterViewCell") as! PosterViewCell
         let movie = movies[indexPath.row]
         let title = movie["title"] as! String
+        let movieId = movie["id"] as! Int
         cell.medianameLabel.text = title
         
         let baseUrl = "https://image.tmdb.org/t/p/w185"
         let posterPath = movie["poster_path"] as! String
         let posterUrl = URL(string: baseUrl + posterPath)!
         cell.moviePoster.af_setImage(withURL: posterUrl)
+        cell.movieId.text = String(movieId)
         return cell
     }
 

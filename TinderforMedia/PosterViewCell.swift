@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 class PosterViewCell: UITableViewCell {
     
@@ -13,8 +14,45 @@ class PosterViewCell: UITableViewCell {
 
     @IBOutlet weak var moviePoster: UIImageView!
     @IBOutlet weak var medianameLabel: UILabel!
-    @IBOutlet weak var likeButton: UIButton!
-    @IBOutlet weak var unlikeButton: UIButton!
+    @IBOutlet weak var movieId: UILabel!
+    
+    @IBAction func onLike(_ sender: Any) {
+        let liked = PFObject(className: "Liked")
+        if let text = movieId.text, let value = Int(text){
+            print(value)
+            liked["mediaId"] = value
+        } else {
+            print("ID error")
+        }
+        liked["user"] = PFUser.current()!
+        
+        liked.saveInBackground { (success,error) in
+            if success {
+                print("Saved")
+            } else {
+                print("Error")
+            }
+        }
+    }
+    
+    @IBAction func onDislike(_ sender: Any) {
+        let disliked = PFObject(className: "Diliked")
+        if let text = movieId.text, let value = Int(text){
+            print(value)
+            disliked["mediaId"] = value
+        } else {
+            print("ID error")
+        }
+        disliked["user"] = PFUser.current()!
+        
+        disliked.saveInBackground { (success,error) in
+            if success {
+                print("Saved")
+            } else {
+                print("Error")
+            }
+        }
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
