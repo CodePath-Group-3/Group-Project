@@ -12,6 +12,7 @@
 		45747735290E7F23002F7386 /* LikedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45747734290E7F23002F7386 /* LikedViewController.swift */; };
 		45747737290E7F2F002F7386 /* RecommendationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45747736290E7F2F002F7386 /* RecommendationsViewController.swift */; };
 		45747739290EB47A002F7386 /* PosterViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45747738290EB47A002F7386 /* PosterViewCell.swift */; };
+		4574773B290EEE08002F7386 /* LikedViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574773A290EEE08002F7386 /* LikedViewCell.swift */; };
 		4579CF302907FD52000B77B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4579CF2F2907FD52000B77B6 /* AppDelegate.swift */; };
 		4579CF322907FD52000B77B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4579CF312907FD52000B77B6 /* SceneDelegate.swift */; };
 		4579CF372907FD52000B77B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4579CF352907FD52000B77B6 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 		45747734290E7F23002F7386 /* LikedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedViewController.swift; sourceTree = "<group>"; };
 		45747736290E7F2F002F7386 /* RecommendationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsViewController.swift; sourceTree = "<group>"; };
 		45747738290EB47A002F7386 /* PosterViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterViewCell.swift; sourceTree = "<group>"; };
+		4574773A290EEE08002F7386 /* LikedViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedViewCell.swift; sourceTree = "<group>"; };
 		4579CF2C2907FD52000B77B6 /* TinderforMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderforMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4579CF2F2907FD52000B77B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4579CF312907FD52000B77B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				45747734290E7F23002F7386 /* LikedViewController.swift */,
 				45747736290E7F2F002F7386 /* RecommendationsViewController.swift */,
 				45747738290EB47A002F7386 /* PosterViewCell.swift */,
+				4574773A290EEE08002F7386 /* LikedViewCell.swift */,
 			);
 			path = TinderforMedia;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			files = (
 				45747739290EB47A002F7386 /* PosterViewCell.swift in Sources */,
 				45747731290E7EB8002F7386 /* LoginViewController.swift in Sources */,
+				4574773B290EEE08002F7386 /* LikedViewCell.swift in Sources */,
 				4579CF302907FD52000B77B6 /* AppDelegate.swift in Sources */,
 				4579CF322907FD52000B77B6 /* SceneDelegate.swift in Sources */,
 				45747737290E7F2F002F7386 /* RecommendationsViewController.swift in Sources */,

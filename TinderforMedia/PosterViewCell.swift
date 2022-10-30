@@ -12,7 +12,7 @@ class PosterViewCell: UITableViewCell {
     
     var movies = [[String:Any]]()
 
-    @IBOutlet weak var moviePoster: UIImageView!
+    @IBOutlet weak var posterImage: UIImageView!
     @IBOutlet weak var medianameLabel: UILabel!
     @IBOutlet weak var movieId: UILabel!
     
