@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45747731290E7EB8002F7386 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45747730290E7EB8002F7386 /* LoginViewController.swift */; };
+		45747733290E7EFC002F7386 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45747732290E7EFC002F7386 /* HomeViewController.swift */; };
+		45747735290E7F23002F7386 /* LikedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45747734290E7F23002F7386 /* LikedViewController.swift */; };
+		45747737290E7F2F002F7386 /* RecommendationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45747736290E7F2F002F7386 /* RecommendationsViewController.swift */; };
 		4579CF302907FD52000B77B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4579CF2F2907FD52000B77B6 /* AppDelegate.swift */; };
 		4579CF322907FD52000B77B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4579CF312907FD52000B77B6 /* SceneDelegate.swift */; };
-		4579CF342907FD52000B77B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4579CF332907FD52000B77B6 /* ViewController.swift */; };
 		4579CF372907FD52000B77B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4579CF352907FD52000B77B6 /* Main.storyboard */; };
 		4579CF392907FD58000B77B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4579CF382907FD58000B77B6 /* Assets.xcassets */; };
 		4579CF3C2907FD58000B77B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4579CF3A2907FD58000B77B6 /* LaunchScreen.storyboard */; };
@@ -17,10 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45747730290E7EB8002F7386 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		45747732290E7EFC002F7386 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		45747734290E7F23002F7386 /* LikedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedViewController.swift; sourceTree = "<group>"; };
+		45747736290E7F2F002F7386 /* RecommendationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsViewController.swift; sourceTree = "<group>"; };
 		4579CF2C2907FD52000B77B6 /* TinderforMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderforMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4579CF2F2907FD52000B77B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4579CF312907FD52000B77B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4579CF332907FD52000B77B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4579CF362907FD52000B77B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4579CF382907FD58000B77B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4579CF3B2907FD58000B77B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,7 +54,6 @@
 				FEDCB361F953BDBC78E3BD63 /* Pods-TinderforMedia.debug.xcconfig */,
 				80A5988ED7A245FC36E854EE /* Pods-TinderforMedia.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -75,11 +80,14 @@
 			children = (
 				4579CF2F2907FD52000B77B6 /* AppDelegate.swift */,
 				4579CF312907FD52000B77B6 /* SceneDelegate.swift */,
-				4579CF332907FD52000B77B6 /* ViewController.swift */,
 				4579CF352907FD52000B77B6 /* Main.storyboard */,
 				4579CF382907FD58000B77B6 /* Assets.xcassets */,
 				4579CF3A2907FD58000B77B6 /* LaunchScreen.storyboard */,
 				4579CF3D2907FD58000B77B6 /* Info.plist */,
+				45747730290E7EB8002F7386 /* LoginViewController.swift */,
+				45747732290E7EFC002F7386 /* HomeViewController.swift */,
+				45747734290E7F23002F7386 /* LikedViewController.swift */,
+				45747736290E7F2F002F7386 /* RecommendationsViewController.swift */,
 			);
 			path = TinderforMedia;
 			sourceTree = "<group>";
@@ -207,9 +215,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4579CF342907FD52000B77B6 /* ViewController.swift in Sources */,
+				45747731290E7EB8002F7386 /* LoginViewController.swift in Sources */,
 				4579CF302907FD52000B77B6 /* AppDelegate.swift in Sources */,
 				4579CF322907FD52000B77B6 /* SceneDelegate.swift in Sources */,
+				45747737290E7F2F002F7386 /* RecommendationsViewController.swift in Sources */,
+				45747733290E7EFC002F7386 /* HomeViewController.swift in Sources */,
+				45747735290E7F23002F7386 /* LikedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

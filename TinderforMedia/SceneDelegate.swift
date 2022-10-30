@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  TinderforMedia
 //
-//  Created by Larry Harmych on 10/25/22.
+//  Created on 10/25/22.
 //
 
 import UIKit
