@@ -36,7 +36,7 @@ class PosterViewCell: UITableViewCell {
     }
     
     @IBAction func onDislike(_ sender: Any) {
-        let disliked = PFObject(className: "Diliked")
+        let disliked = PFObject(className: "Disliked")
         if let text = movieId.text, let value = Int(text){
             print(value)
             disliked["mediaId"] = value
