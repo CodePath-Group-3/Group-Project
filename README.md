@@ -107,4 +107,8 @@ Trailer View Page
 - (Read/GET) Movie/show trailer
 
 Gif of Currently Working App:
-![](https://i.imgur.com/F7QUlFL.gif)
+- ![](https://i.imgur.com/F7QUlFL.gif)
+
+Gif of Currently Working App (Part 2):
+- ![](https://i.imgur.com/NRVnWgb.gif)
+
