@@ -72,7 +72,6 @@ class LikedViewController: UIViewController, UITableViewDelegate, UITableViewDat
         tableView.delegate = self
         tableView.dataSource = self
         // Do any additional setup after loading the view.
-        self.tableView.reloadData()
     }
     
     
