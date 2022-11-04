@@ -18,40 +18,84 @@ class PosterViewCell: UITableViewCell {
     
     @IBAction func onLike(_ sender: Any) {
         let liked = PFObject(className: "Liked")
+        let findliked = PFQuery(className: "Liked")
+        let findDisliked = PFQuery(className: "Disliked")
         if let text = movieId.text, let value = Int(text){
             print(value)
-            liked["mediaId"] = value
+            findliked.whereKey("mediaId", equalTo: value)
+            findliked.getFirstObjectInBackground(block: { (object, error) in
+                    if error == nil {
+                        if let request = object {
+                            print("Already in database")
+                            print(request)
+                        }
+                    } else {
+                        print("Not found!")
+                        liked["user"] = PFUser.current()!
+                        liked["mediaId"] = value
+                        liked.saveInBackground { (success,error) in
+                            if success {
+                                print("Saved")
+                            } else {
+                                print("Error")
+                            }
+                        }
+                    }
+            })
+            findDisliked.whereKey("mediaId", equalTo: value)
+            findDisliked.getFirstObjectInBackground(block: { (object, error) in
+                    if error == nil {
+                        if let request = object {
+                            print(request)
+                            request.deleteInBackground()
+                        }
+                    }
+                })
         } else {
             print("ID error")
-        }
-        liked["user"] = PFUser.current()!
-        
-        liked.saveInBackground { (success,error) in
-            if success {
-                print("Saved")
-            } else {
-                print("Error")
-            }
         }
     }
     
     @IBAction func onDislike(_ sender: Any) {
         let disliked = PFObject(className: "Disliked")
+        let findLiked = PFQuery(className: "Liked")
+        let findDisliked = PFQuery(className: "Disliked")
         if let text = movieId.text, let value = Int(text){
             print(value)
-            disliked["mediaId"] = value
-        } else {
+            findDisliked.whereKey("mediaId", equalTo: value)
+            findDisliked.getFirstObjectInBackground(block: { (object, error) in
+                    if error == nil {
+                        if let request = object {
+                            print("Already in database")
+                            print(request)
+                        }
+                    } else {
+                        print("Not found!")
+                        disliked["user"] = PFUser.current()!
+                        disliked["mediaId"] = value
+                        disliked.saveInBackground { (success,error) in
+                            if success {
+                                print("Saved")
+                            } else {
+                                print("Error")
+                            }
+                        }
+                    }
+            })
+            findLiked.whereKey("mediaId", equalTo: value)
+            findLiked.getFirstObjectInBackground(block: { (object, error) in
+                    if error == nil {
+                        if let request = object {
+                            print(request)
+                            request.deleteInBackground()
+                        }
+                    }
+                })
+            }
+        else {
             print("ID error")
         }
-        disliked["user"] = PFUser.current()!
         
-        disliked.saveInBackground { (success,error) in
-            if success {
-                print("Saved")
-            } else {
-                print("Error")
-            }
-        }
     }
     
     override func awakeFromNib() {
