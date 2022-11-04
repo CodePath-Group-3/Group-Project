@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="o6w-KR-eJL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="o6w-KR-eJL">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -40,7 +39,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LikedViewCell" rowHeight="289" id="hHh-AX-05K" customClass="LikedViewCell" customModule="TinderforMedia" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="390" height="289"/>
+                                        <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="289"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hHh-AX-05K" id="fUh-ok-EdK">
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="289"/>
@@ -49,26 +48,28 @@
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jz6-Z3-1WU">
                                                     <rect key="frame" x="8" y="8" width="374" height="248"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" secondItem="jz6-Z3-1WU" secondAttribute="height" multiplier="175:116" id="042-tw-zth"/>
+                                                        <constraint firstAttribute="height" constant="248" id="SKB-vH-hjM"/>
+                                                        <constraint firstAttribute="width" constant="374" id="sB4-dT-p7E"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Media Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1n-Wl-PJh">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Media Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E1n-Wl-PJh">
                                                     <rect key="frame" x="8" y="264" width="374" height="17"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="jz6-Z3-1WU" firstAttribute="top" secondItem="fUh-ok-EdK" secondAttribute="top" constant="8" id="Mmx-At-DCo"/>
-                                                <constraint firstItem="jz6-Z3-1WU" firstAttribute="leading" secondItem="fUh-ok-EdK" secondAttribute="leading" constant="8" id="ON8-v8-mQP"/>
-                                                <constraint firstAttribute="trailing" secondItem="jz6-Z3-1WU" secondAttribute="trailing" constant="8" id="hWa-kA-rqL"/>
+                                                <constraint firstItem="jz6-Z3-1WU" firstAttribute="leading" secondItem="fUh-ok-EdK" secondAttribute="leading" constant="8" id="2B3-fb-dSM"/>
+                                                <constraint firstAttribute="bottom" secondItem="E1n-Wl-PJh" secondAttribute="bottom" constant="8" id="EKR-OB-hgG"/>
+                                                <constraint firstItem="jz6-Z3-1WU" firstAttribute="top" secondItem="fUh-ok-EdK" secondAttribute="top" constant="8" id="GjL-5B-Lpt"/>
+                                                <constraint firstItem="E1n-Wl-PJh" firstAttribute="top" secondItem="jz6-Z3-1WU" secondAttribute="bottom" constant="8" id="lGv-p2-f8P"/>
+                                                <constraint firstAttribute="trailing" secondItem="jz6-Z3-1WU" secondAttribute="trailing" constant="8" id="ugI-HR-tj2"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="medianameLabel" destination="E1n-Wl-PJh" id="fDI-Gt-e1q"/>
-                                            <outlet property="posterImage" destination="jz6-Z3-1WU" id="8yq-bq-b7K"/>
+                                            <outlet property="posterImage" destination="jz6-Z3-1WU" id="WCW-SH-L8f"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -116,7 +117,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PosterViewCell" rowHeight="327" id="Jms-hB-5J4" customClass="PosterViewCell" customModule="TinderforMedia" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="390" height="327"/>
+                                        <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="327"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Jms-hB-5J4" id="qM9-r9-H2h">
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="327"/>
@@ -301,7 +302,7 @@
                     <tabBarItem key="tabBarItem" title="Recommendations" image="checklist" catalog="system" id="yRo-1Z-tEX"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="6dN-VL-lNF">
-                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -320,7 +321,7 @@
                     <tabBarItem key="tabBarItem" title="Liked " image="heart" catalog="system" id="kJH-WZ-CS9"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ovY-Ko-5Kh">
-                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -339,7 +340,7 @@
                     <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="UXR-L0-8WQ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="S5X-nH-vOj">
-                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -353,10 +354,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="checklist" catalog="system" width="128" height="107"/>
-        <image name="heart" catalog="system" width="128" height="107"/>
+        <image name="checklist" catalog="system" width="128" height="105"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
         <image name="heart.slash" catalog="system" width="128" height="115"/>
-        <image name="house" catalog="system" width="128" height="104"/>
+        <image name="house" catalog="system" width="128" height="106"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
