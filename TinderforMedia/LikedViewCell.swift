@@ -2,15 +2,14 @@
 //  LikedViewCell.swift
 //  TinderforMedia
 //
-//  Created by Larry Harmych on 10/30/22.
+//  Created on 10/30/22.
 //
 
 import UIKit
-import AlamofireImage
 
 class LikedViewCell: UITableViewCell {
-
-    @IBOutlet weak var posterImage: UIImageView!
+    
+    @IBOutlet weak var likedImage: UIImageView!
     @IBOutlet weak var medianameLabel: UILabel!
     
     override func awakeFromNib() {

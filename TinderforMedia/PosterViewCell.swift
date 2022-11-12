@@ -33,6 +33,10 @@ class PosterViewCell: UITableViewCell {
                         print("Not found!")
                         liked["user"] = PFUser.current()!
                         liked["mediaId"] = value
+                        liked["title"] = String(self.medianameLabel.text!)
+                        let imageData = self.posterImage.image!.jpegData(compressionQuality: 0.50)
+                        let file = PFFileObject(name: "image.jpeg", data: imageData!)
+                        liked["image"] = file
                         liked.saveInBackground { (success,error) in
                             if success {
                                 print("Saved")

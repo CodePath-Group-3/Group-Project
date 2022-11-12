@@ -2,7 +2,7 @@
 //  HomeDetailViewController.swift
 //  TinderforMedia
 //
-//  Created by Lyza Cabading on 10/31/22.
+//  Created on 10/31/22.
 //
 
 import UIKit
