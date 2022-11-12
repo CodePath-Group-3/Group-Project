@@ -34,7 +34,6 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
              }
         }
         task.resume()
-
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

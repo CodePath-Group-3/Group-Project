@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		392E0BD3291089FB00ABF649 /* HomeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392E0BD2291089FB00ABF649 /* HomeDetailViewController.swift */; };
+		4552DC732920221E00428BE3 /* RecommendationsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4552DC722920221D00428BE3 /* RecommendationsViewCell.swift */; };
 		45747731290E7EB8002F7386 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45747730290E7EB8002F7386 /* LoginViewController.swift */; };
 		45747733290E7EFC002F7386 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45747732290E7EFC002F7386 /* HomeViewController.swift */; };
 		45747735290E7F23002F7386 /* LikedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45747734290E7F23002F7386 /* LikedViewController.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		392E0BD2291089FB00ABF649 /* HomeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailViewController.swift; sourceTree = "<group>"; };
+		4552DC722920221D00428BE3 /* RecommendationsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsViewCell.swift; sourceTree = "<group>"; };
 		45747730290E7EB8002F7386 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		45747732290E7EFC002F7386 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		45747734290E7F23002F7386 /* LikedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				45747738290EB47A002F7386 /* PosterViewCell.swift */,
 				4574773A290EEE08002F7386 /* LikedViewCell.swift */,
 				392E0BD2291089FB00ABF649 /* HomeDetailViewController.swift */,
+				4552DC722920221D00428BE3 /* RecommendationsViewCell.swift */,
 			);
 			path = TinderforMedia;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				45747739290EB47A002F7386 /* PosterViewCell.swift in Sources */,
 				45747731290E7EB8002F7386 /* LoginViewController.swift in Sources */,
 				4574773B290EEE08002F7386 /* LikedViewCell.swift in Sources */,
+				4552DC732920221E00428BE3 /* RecommendationsViewCell.swift in Sources */,
 				392E0BD3291089FB00ABF649 /* HomeDetailViewController.swift in Sources */,
 				4579CF302907FD52000B77B6 /* AppDelegate.swift in Sources */,
 				4579CF322907FD52000B77B6 /* SceneDelegate.swift in Sources */,

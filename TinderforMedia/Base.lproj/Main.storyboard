@@ -16,14 +16,51 @@
                     <view key="view" contentMode="scaleToFill" id="jKK-bN-9VI">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="N4R-ii-zKd">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RecommendationsViewCell" rowHeight="113" id="TfK-7Y-v5v" customClass="RecommendationsViewCell" customModule="TinderforMedia" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="113"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TfK-7Y-v5v" id="tls-LJ-1BT">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="113"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Media Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flY-cT-B8d" userLabel="Media Name">
+                                                    <rect key="frame" x="20" y="46" width="350" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="flY-cT-B8d" firstAttribute="trailing" secondItem="tls-LJ-1BT" secondAttribute="trailingMargin" id="9v0-OR-ceK"/>
+                                                <constraint firstItem="flY-cT-B8d" firstAttribute="top" secondItem="tls-LJ-1BT" secondAttribute="topMargin" constant="35" id="FVI-rW-B3B"/>
+                                                <constraint firstItem="flY-cT-B8d" firstAttribute="leading" secondItem="tls-LJ-1BT" secondAttribute="leadingMargin" id="ZQA-6V-rhN"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="flY-cT-B8d" secondAttribute="bottom" constant="35" id="sOh-yP-hPh"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="medianameLabel" destination="flY-cT-B8d" id="qKq-OW-6yf"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="GGu-yf-YrY"/>
                         <color key="backgroundColor" systemColor="systemGray6Color"/>
                     </view>
                     <navigationItem key="navigationItem" title="Recommendations" id="JOI-L5-isD"/>
+                    <connections>
+                        <outlet property="tableView" destination="N4R-ii-zKd" id="3D6-38-kz0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EqN-z5-wF4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="91" y="242"/>
+            <point key="canvasLocation" x="90.769230769230759" y="241.70616113744074"/>
         </scene>
         <!--Liked-->
         <scene sceneID="MT1-L3-OmT">
