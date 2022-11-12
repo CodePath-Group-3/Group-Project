@@ -42,7 +42,6 @@ class LikedViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         let query = PFQuery(className: "Liked")
-        query.limit = 10
         query.findObjectsInBackground { (liked, error) in
             if liked != nil {
                 self.liked = liked!
