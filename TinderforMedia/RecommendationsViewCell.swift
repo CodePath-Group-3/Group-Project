@@ -2,7 +2,7 @@
 //  RecommendationsViewCell.swift
 //  TinderforMedia
 //
-//  Created by Larry Harmych on 11/12/22.
+//  Created on 11/12/22.
 //
 
 import UIKit

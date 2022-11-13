@@ -52,7 +52,7 @@ class RecommendationsViewController: UIViewController, UITableViewDelegate, UITa
         task.resume()
         self.recommended = recommendations["Similar"]! as AnyObject
         if recommended.count != nil {
-            return 15
+            return 20
         } else {
             return 0
         }
