@@ -22,6 +22,7 @@ class PosterViewCell: UITableViewCell {
         let findDisliked = PFQuery(className: "Disliked")
         if let text = movieId.text, let value = Int(text){
             print(value)
+            findliked.whereKey("userId", equalTo: PFUser.current())
             findliked.whereKey("mediaId", equalTo: value)
             findliked.getFirstObjectInBackground(block: { (object, error) in
                     if error == nil {
@@ -47,6 +48,7 @@ class PosterViewCell: UITableViewCell {
                     }
             })
             findDisliked.whereKey("mediaId", equalTo: value)
+            findDisliked.whereKey("userId", equalTo: PFUser.current())
             findDisliked.getFirstObjectInBackground(block: { (object, error) in
                     if error == nil {
                         if let request = object {
@@ -66,6 +68,7 @@ class PosterViewCell: UITableViewCell {
         let findDisliked = PFQuery(className: "Disliked")
         if let text = movieId.text, let value = Int(text){
             print(value)
+            findDisliked.whereKey("userId", equalTo: PFUser.current())
             findDisliked.whereKey("mediaId", equalTo: value)
             findDisliked.getFirstObjectInBackground(block: { (object, error) in
                     if error == nil {
@@ -86,6 +89,7 @@ class PosterViewCell: UITableViewCell {
                         }
                     }
             })
+            findLiked.whereKey("userId", equalTo: PFUser.current())
             findLiked.whereKey("mediaId", equalTo: value)
             findLiked.getFirstObjectInBackground(block: { (object, error) in
                     if error == nil {
